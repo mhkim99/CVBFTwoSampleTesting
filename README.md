@@ -80,7 +80,7 @@ legend("bottomright", legend=c("CVBF", expression(CVBF[0])), lty=c(1,4), bty="n"
 ```
 
 <p align="center">
-  <img src="figs/example_logBfs.png" width="65%">
+  <img src="figs/example_logBfs.png" width="75%">
 </p>
 
 For a Bayesian non-parametric test to be effective, it should adopt an assumption about the underlying distribution of the dataset. By examining the posterior predictive distribution of the test, we can gain insight into what the Bayesian non-parametric procedure infers about the underlying distribution of the data.
@@ -97,7 +97,7 @@ legend("topright", legend=c("CVBF", "True"), col=c('black','blue'), lty=c(1,2), 
 ```
 
 <p align="center">
-  <img src="figs/example_predpost.png" width="65%">
+  <img src="figs/example_predpost.png" width="75%">
 </p>
 
 
