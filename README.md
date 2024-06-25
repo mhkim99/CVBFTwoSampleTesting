@@ -63,7 +63,7 @@ lines(seq(from = min(dataset1), to = max(dataset1), length.out = 100) , dnorm(se
 ```
 
 <p align="center">
-  <img src="figs/example_postpred.png" width="78%">
+  <img src="figs/example_postpred.png" width="70%">
 </p>
 
 
