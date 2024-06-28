@@ -68,6 +68,10 @@ abline(h=0,col='red',lty=2)
 
 ```
 
+<p align="center">
+  <img src="figs/Rplot_example_logBfs.png" width="90%">
+</p>
+
 ### Posterior predictive checking of the test
 
 To construct a Bayesian nonparametric test, one should adopt a Bayesian nonparametric model for the underlying distribution of the dataset. By examining the posterior predictive distribution of this model, we can gain insights into what the procedure infers about the data's underlying distribution.
@@ -94,6 +98,10 @@ lines(xgrid, dnorm(xgrid), col = "blue",lwd=2,lty=2)
 legend("topright", legend=c("CVBF", "True"), col=c('black','blue'), lty=c(1,2),lwd = c(2,2), bty="n")
 
 ```
+
+<p align="center">
+  <img src="figs/Rplot_example_postpred.png" width="70%">
+</p>
 
 ### Application to Higgs boson data
 
