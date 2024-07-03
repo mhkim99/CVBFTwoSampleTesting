@@ -79,7 +79,7 @@ ggsave("TrainAndValidSizeHiggs2.pdf",plot = plot1, device = "pdf", width = 8.5, 
 
 ```
 
-Plot of col 24
+Plot of col 23
 
 Below is code for col 29
 
