@@ -97,6 +97,7 @@ We provide code that reproduces the results in the "Data analysis" section of th
 
 ``` r
 library(BSCRN)
+library(matrixStats)
 library(ggplot2)
 
 ```
