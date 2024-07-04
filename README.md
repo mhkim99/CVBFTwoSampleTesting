@@ -2,19 +2,19 @@
 
 This repository provides code for simulation study and real data analysis presented in the following paper:
 
-&nbsp;&nbsp; Merchant, N., Hart, J.D., Kim, M.,and Choi, T. (2024) "Use of Cross-validation Bayes Factors to Test Equality of Two Densities," R&R at *Statistics*.
+&nbsp;&nbsp; Merchant, N., Hart, J.D., Kim, M., and Choi, T. (2024) "Use of Cross-validation Bayes Factors to Test Equality of Two Densities." Statistics (*Revised version submitted.*)
 
 ### Authors
 
 Naveed Merchant, Texas A&M University (nmerchant@stat.tamu.edu)<br/>
 Jeffrey D. Hart, Texas A&M University (hart@stat.tamu.edu)<br/>
-Minhyeok Kim, Purdue University (kim4660@purdue.edu)<br/>
+Minhyeok Kim, Korea University (kmh15937@korea.ac.kr)<br/>
 Taeryon Choi, Korea University (trchoi@korea.ac.kr)<br/>
 
 ### Maintainers
 
 Naveed Merchant, Texas A&M University (R package [BSCRN](https://github.com/naveedmerchant/BayesScreening)) (nmerchant@stat.tamu.edu)<br/>
-Minhyeok Kim, Purdue University (Github page) (kim4660@purdue.edu)<br/>
+Minhyeok Kim, Korea University (Github page) (kmh15937@korea.ac.kr)<br/>
 
 ## Introduction
 
@@ -22,13 +22,13 @@ We propose a nonparametric, Bayesian two-sample test for checking whether two da
 
 ## Simulations
 
-We consider the *Scale change* scenario in the "Simulations" section of the paper (Figure 4):
+We consider the *Scale change* scenario in the "Section 6. Simulations" of the paper (Figure 4):
 
 &nbsp;&nbsp; Independent random samples $X_{1},...,X_{m}$ and $Y_{1},...,Y_{n}$ are drawn from densities $f$ and $(1-p)f + pg$, respectively, with $m = n = 400$ and $500$ replications.
 - The densities $f$ and $g$ are $\phi$ (standard normal) and $\phi(\cdot/2)/2$, respectively, indicating a difference in scale.
 - The mixing proportions $p$ are drawn from $\text{beta}(1/2,1/2)$.
 
-To implement the CVBF procedure for two-sample testing, we can use the R package `BSCRN`. The package is available from [Github](https://github.com/naveedmerchant/BayesScreening) with the following code:
+`BSCRN` is an R package that provides functions for implementing the CVBF procedure for two-sample testing. The package is available from [Github](https://github.com/naveedmerchant/BayesScreening) with the following code:
 ``` r
 devtools::install_github("naveedmerchant/BayesScreening")
 
@@ -87,7 +87,7 @@ The `BayesSimShortTailvsShortTailSAsimsAVG.Rmd` reproduces all the results for t
 
 ## Application to Higgs boson dataset
 
-We provide code that reproduces the results in the "Data analysis" section of the paper (Figure 9). 
+We provide code that reproduces the results in the "Section 7. Data analysis" of the paper (Figure 9). 
 - We analyze the Higgs boson dataset, which can be downloaded from the [UCI Machine Learning repo](https://archive.ics.uci.edu/dataset/280/higgs).
 - The dataset contains 29 columns and 11 million rows.
     - The 1st column consists of 0-1 variables indicating whether the data are noise or signal.
