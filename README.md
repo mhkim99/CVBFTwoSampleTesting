@@ -2,7 +2,7 @@
 
 This repository provides code for simulation study and real data analysis presented in the following paper:
 
-&nbsp;&nbsp; Merchant, N., Hart, J.D., Kim, M., and Choi, T. (2024) "Use of Cross-validation Bayes Factors to Test Equality of Two Densities." Statistics (*Revised version submitted.*)
+&nbsp;&nbsp; Merchant, N., Hart, J.D., Kim, M., and Choi, T. (2024) "Use of Cross-validation Bayes Factors to Test Equality of Two Densities." Statistics: A Journal of Theoretical and Applied Statistics (*Revised version submitted.*)
 
 ### Authors
 
