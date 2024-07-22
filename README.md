@@ -24,9 +24,9 @@ We propose a nonparametric, Bayesian two-sample test for checking whether two da
 
 We consider the *Scale change* scenario in the "Section 6. Simulations" of the paper (Figure 4):
 
-&nbsp;&nbsp; Independent random samples $X_{1},...,X_{m}$ and $Y_{1},...,Y_{n}$ are drawn from densities $f$ and $(1-p)f + pg$, respectively, with $m = n = 400$ and $500$ replications.
-- The densities $f$ and $g$ are $\phi$ (standard normal) and $\phi(\cdot/2)/2$, respectively, indicating a difference in scale.
-- The mixing proportions $p$ are drawn from $\text{beta}(1/2,1/2)$.
+&nbsp;&nbsp; Independent random samples $`X_{1},...,X_{m}`$ and $`Y_{1},...,Y_{n}`$ are drawn from densities $`f`$ and $`(1-p)f + pg`$, respectively, with $`m = n = 400`$ and $`500`$ replications.
+- The densities $`f`$ and $`g`$ are $`\phi(\cdot)`$ (standard normal) and $`\phi(\cdot/2)/2`$, respectively, indicating a difference in scale.
+- The mixing proportions $`p`$ are drawn from $`\text{beta}(1/2,1/2)`$.
 
 `BSCRN` is an R package that provides functions for implementing the CVBF procedure for two-sample testing. The package is available from [Github](https://github.com/naveedmerchant/BayesScreening) with the following code:
 ``` r
